@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 1em/1.3em Arial, sans-serif;
+	height: 100%;
+    color: #333;
+    background-color: #eee;
+    line-height: 1;
+}
+
+.wrapper {
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    min-height: 50%;
+	//height: auto !important;
+    width: 800px;
+}
+
+.float-left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+    padding-top: 20px;
+    min-width: 800px;
+    position: relative;
+}
+
+.header-container {
+    margin: auto;
+    background: #ddd;
+    text-align: center;
+    padding: 40px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.header-photo {
+    width: 120px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    border-radius: 10px;
+	padding: 0 0 0 0px;
+    background-color: #ffffff;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -40px auto 0;
+	height:60px;
+    float: right;
+	position: relative;
+    padding: 10px 10px 10px 10px;
+}
