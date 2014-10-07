@@ -16,12 +16,8 @@ body {
     line-height: 1;
 }
 
-.wrapper {
-    padding: 20px 20px 20px 20px;
-    margin: auto;
-    min-height: 50%;
-	//height: auto !important;
-    width: 800px;
+p {
+    padding-top: 10px;   
 }
 
 .float-left {
@@ -31,42 +27,56 @@ body {
     clear: both;
 }
 
+.page-container {
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 100px;
-    padding-top: 20px;
-    min-width: 800px;
-    position: relative;
+	height: 120px;
+    padding-bottom; 15px;
+    padding-top: 15px;
+    padding-left: 25%;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
-.header-container {
-    margin: auto;
-    background: #ddd;
-    text-align: center;
-    padding: 40px;
-    width: 800px;
-    border-radius: 10px;
+.center {
+    width: 400px;   
 }
 
 .header-photo {
-    width: 120px;
+    width: 100px;
 }
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+    margin-top: 20px;
     border-radius: 10px;
-	padding: 0 0 0 0px;
+	padding: 20px 20px 20px 20px;
     background-color: #ffffff;
 }
 
-/* Footer
------------------------------------------------------------------------------*/
-.footer {
-	margin: -40px auto 0;
-	height:60px;
-    float: right;
-	position: relative;
+.education {
+    margin: auto;
+}
+
+.skills {
+    margin:auto;   
+}
+
+.sub-skill {
+    text-align: center;
     padding: 10px 10px 10px 10px;
+    width: 30%;  
+}
+
+.skill-img {
+    text-align: center;
+    width: 32.5%; 
 }
