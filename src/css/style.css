@@ -20,6 +20,11 @@ p {
     padding-top: 10px;   
 }
 
+li {
+    padding-left: 20px;
+    list-style: none;
+}
+
 .float-left {
     float: left;
 }
@@ -32,6 +37,18 @@ p {
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+/* Icons
+-----------------------------------------------------------------------------*/
+.icon {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.icon-lg {
+    font-size: 3em;
 }
 
 /* Header
@@ -84,6 +101,6 @@ p {
     width: 32.5%; 
 }
 
-.workexperience-section {
+.section {
     padding: 20px 20px 20px 20px;
 }
