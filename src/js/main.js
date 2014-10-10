@@ -6,12 +6,21 @@
 require.config({
 paths: {
         'jquery': 'lib/jquery',
+        'jqueryui': 'lib/jquery-ui',
         'underscore': 'lib/underscore'
     },
 });
 
 requirejs(['jquery'], function( $ ) {
     //jQuery, loaded and can be used here now.
-    console.log($);
+    
+    $('.p-skill1, .p-skill2, .p-skill3').hide();
+    
+    $('.skill-img1').hover( function () {
+            $( '.p-skill1' ).slideDown();}, function () { $('.p-skill1').slideUp()});
+    $('.skill-img2').hover( function () {
+            $( '.p-skill2' ).slideDown();}, function () { $('.p-skill2').slideUp()});
+    $('.skill-img3').hover( function () {
+            $( '.p-skill3' ).slideDown();}, function () { $('.p-skill3').slideUp()});
     
 });

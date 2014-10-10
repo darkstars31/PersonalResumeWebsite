@@ -67,11 +67,14 @@ p {
 }
 
 .skills {
-    margin:auto;   
+    margin:auto;  
 }
 
-.sub-skill {
+.sub-skill-title {
     text-align: center;
+}
+.sub-skill {
+    text-align: left;
     padding: 10px 10px 10px 10px;
     width: 30%;  
 }
@@ -79,4 +82,8 @@ p {
 .skill-img {
     text-align: center;
     width: 32.5%; 
+}
+
+.workexperience-section {
+    padding: 20px 20px 20px 20px;
 }
