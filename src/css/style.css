@@ -39,6 +39,10 @@ li {
     padding-bottom: 20px;
 }
 
+.settings {
+    width: 100px;
+}
+
 
 /* Icons
 -----------------------------------------------------------------------------*/
@@ -81,6 +85,9 @@ li {
 
 .education {
     margin: auto;
+}
+.education-macc, .education-mu {
+    font-size: .8em;
 }
 
 .skills {
